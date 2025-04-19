@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 85afb6dcf9dd64f49bde658d8f416b81
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Dungeons
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1f21eda9526fe6842b9a553b4e0bee80, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

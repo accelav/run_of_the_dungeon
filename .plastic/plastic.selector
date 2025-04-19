@@ -1,0 +1,4 @@
+repository "run_of_the_dungeon/run_of_the_dungeon@20066938061759@cloud"
+  path "/"
+    br "/main"
+    co "/main"
