@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 573192000128032572}
   - component: {fileID: 2310509747698854902}
   - component: {fileID: 8839862537382801562}
+  - component: {fileID: 2690004232865681863}
   m_Layer: 0
   m_Name: 97_Othert_Star
-  m_TagString: Untagged
+  m_TagString: Star
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,3 +106,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.26478112, y: 0.9051967, z: 0.95105445}
   m_Center: {x: -0.000000022351742, y: 0.46256366, z: 0.00036296248}
+--- !u!114 &2690004232865681863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4256016201337358883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def214ee838f8974fbaa760f7b047aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pingPongSpeed: 3
+  maxScale: 1.8
+  minScale: 1
+  rotSpeed: 2
+  puntos: 1

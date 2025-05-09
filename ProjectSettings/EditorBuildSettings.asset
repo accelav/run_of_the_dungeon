@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RUNOFTHEDUNGEON.unity
+    guid: 056ec80c55564a142aee353a74f397ed
+  - enabled: 1
+    path: Assets/Scenes/Nivel1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Nivel2.unity
+    guid: 1d323cb2196d19d4593d2a9e0ab39451
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: a5c237bb5512c4c44b37d9880babc77e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e2926b642cfb8d543b2cdeee24e809cf, type: 3}

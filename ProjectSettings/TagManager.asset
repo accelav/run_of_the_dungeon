@@ -6,16 +6,23 @@ TagManager:
   tags:
   - Star
   - Obstacle
+  - PostProcessing
+  - TriggerStatusLevel
+  - Map
+  - Wall
+  - Jumpable
+  - Enemy
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcessing
   - Water
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 

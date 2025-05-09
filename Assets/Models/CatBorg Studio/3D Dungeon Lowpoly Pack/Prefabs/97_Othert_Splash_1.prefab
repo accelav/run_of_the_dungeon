@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 5630454043272762695}
   - component: {fileID: 8758585982059567842}
   - component: {fileID: 6802767236704546344}
+  - component: {fileID: 4513261473622386236}
+  - component: {fileID: 281097415710128186}
   m_Layer: 0
   m_Name: 97_Othert_Splash_1
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,3 +85,38 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4513261473622386236
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5001446064669003773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.45, y: 0.3, z: 1.23}
+  m_Center: {x: 0.0010463595, y: 0.15, z: -0.006364882}
+--- !u!114 &281097415710128186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5001446064669003773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea1c6a7f90f6814468a0317468d6d992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowMotionSpeed: 0.25
+  player: {fileID: 0}

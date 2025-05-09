@@ -1,68 +1,54 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class SistemaDeVidas : MonoBehaviour
 {
     public static SistemaDeVidas instance { get; private set; }
 
-
-
-    void Awake()
-    {
-        // Asegurarse de que la instancia no sea null
-        if (instance == null)
-            instance = this;
-        else
-            Destroy(gameObject); // Evita que se duplique la instancia
-    }
-
-
-
-
+    private const string PuntosGuardado = "Vidas";
 
     public int vidas = 3;
     public int RecuperarVida = 1;
 
+    public GameObject heart1;
+    public GameObject heart2;
+    public GameObject heart3;
+
+
+    void Awake()
+    {
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(gameObject);
+    }
+
 
     void Update()
     {
-
         if (vidas <= 0)
         {
-
-         //Canvas PerderPartida
-
+            PauseWinLoseBehaviour.instance.Loser();
+            vidas = 3;
+            // Time.timeScale = 0;
         }
     }
-    public void ActivarVida()
+    public void RecuperarCorazon()
     {
-
-        vidas = vidas + RecuperarVida;
-
-
+        vidas = Mathf.Min (vidas + RecuperarVida,3); //Para limitar las vidas a 3 máximo
+        ActualizarVidasUI();
     }
 
-
-
-    private void OnTriggerEnter(Collider other)
+    public void PerdidaVida()
     {
-
-        if (other.tag == "Player")
-        {
-
-            // vidas--;
-            vidas--; // Resta una vida
-
-            if (vidas <= 0)
-            {
-
-                //Canvas PerderPartida
-
-            }
-
-        }
-
+        vidas--;
+        ActualizarVidasUI();
     }
 
+    public void ActualizarVidasUI()
+    {
+        heart1.SetActive(vidas >= 1);
+        heart2.SetActive(vidas >= 2);
+        heart3.SetActive(vidas >= 3);
+    }
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 579629971692508389}
   m_Layer: 0
   m_Name: 03_Blacksmith_01_AnvilStand
-  m_TagString: Untagged
+  m_TagString: Jumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

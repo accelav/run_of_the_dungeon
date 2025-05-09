@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+
 
 namespace SlimUI.ModernMenu{
 	public class CheckMusicVolume : MonoBehaviour {

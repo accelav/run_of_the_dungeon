@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3243936722895294294}
   m_Layer: 0
   m_Name: 01_Library_01_Desk#1
-  m_TagString: Untagged
+  m_TagString: Jumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
